@@ -158,7 +158,7 @@ function M.setup()
 
     -- Testing
     use {
-      "rcarriga/vim-ultest",
+      "nvim-neotest/neotest",
       config = "require('config.test').setup()",
       run = ":UpdateRemotePlugins",
       requires = { "vim-test/vim-test" },
@@ -447,7 +447,7 @@ function M.setup()
       end,
     }
     use { "rcarriga/nvim-dap-ui", after = "nvim-dap" }
-    use { "Pocco81/DAPInstall.nvim", after = "nvim-dap" }
+    use { "ravenxrz/DAPInstall.nvim", after = "nvim-dap" }
     use { "jbyuki/one-small-step-for-vimkind", after = "nvim-dap" }
 
     -- Development workflow
